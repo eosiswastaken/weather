@@ -14,7 +14,9 @@ function App() {
         <SearchBar></SearchBar>
         <DateTime></DateTime>
       </div>
-      <DayWeather></DayWeather>
+      <div className="bottomrow">
+        <DayWeather></DayWeather>
+      </div>
       </div>
     </div>
   )

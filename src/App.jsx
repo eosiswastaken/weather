@@ -8,12 +8,14 @@ function App() {
 
   return (
     <div className="App">
+      <div className="content">
       <div className="toprow">
         <CurrentWeather></CurrentWeather>
         <SearchBar></SearchBar>
         <DateTime></DateTime>
       </div>
       <DayWeather></DayWeather>
+      </div>
     </div>
   )
 }

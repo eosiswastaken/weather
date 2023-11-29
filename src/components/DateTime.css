@@ -1,0 +1,15 @@
+.DateTime {
+    background-color: green;
+    font-family: -apple-system, system-ui, Ubuntu, Roboto, "Open Sans", "Segoe UI", "Helvetica Neue";
+    font-weight: 200;
+    color: white;
+    text-align: right;
+}
+
+#date {
+    font-size: 2rem;
+}
+
+#time {
+    font-size: 5rem;
+}

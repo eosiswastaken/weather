@@ -1,0 +1,13 @@
+
+
+#searchbar-box {
+    border-radius: 5px;
+    outline: none;
+    border: 2px solid rgba(255, 255, 255, 1);
+    background-color: rgba(0,0,0,0);
+    width: 30vw;
+    height: 25px;
+    color: white;
+    font-family: -apple-system, system-ui, Ubuntu, Roboto, "Open Sans", "Segoe UI", "Helvetica Neue";
+    font-weight: 400;
+}

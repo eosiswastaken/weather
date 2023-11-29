@@ -3,3 +3,8 @@ body {
     background-size: 100vw;
     height: 50px;
 }
+
+.toprow {
+    display: flex;
+    justify-content: space-between;
+}

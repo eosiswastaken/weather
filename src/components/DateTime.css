@@ -1,15 +1,18 @@
 .DateTime {
-    background-color: green;
     font-family: -apple-system, system-ui, Ubuntu, Roboto, "Open Sans", "Segoe UI", "Helvetica Neue";
     font-weight: 200;
     color: white;
-    text-align: right;
+    width: 20vw;
 }
 
 #date {
     font-size: 2rem;
+    margin-top: 5px;
 }
 
 #time {
     font-size: 5rem;
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 5px;
 }

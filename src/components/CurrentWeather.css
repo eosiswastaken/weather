@@ -1,0 +1,29 @@
+.CurrentWeather {
+    width: 20vw;
+    margin-top: 20px;
+}
+
+.content {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.content > div {
+    flex: 50%
+}
+
+.left {
+
+}
+
+.right {
+
+}
+
+.bottom {
+
+}
+
+img {
+    width: 50%;
+}

@@ -3,9 +3,11 @@ import CurrentWeather from './components/CurrentWeather.jsx'
 import SearchBar from './components/SearchBar.jsx'
 import DateTime from './components/DateTime.jsx'
 import DayWeather from './components/DayWeather.jsx'
-
+import { inject } from '@vercel/analytics';
+ 
 function App() {
 
+  inject();
   return (
     <div className="App">
       <div className="content">
@@ -16,9 +18,14 @@ function App() {
       </div>
       <div className="bottomrow">
         <DayWeather></DayWeather>
+        <DayWeather></DayWeather>
+        <DayWeather></DayWeather>
+        <DayWeather></DayWeather>
+        <DayWeather></DayWeather>
+        <DayWeather></DayWeather> 
       </div>
       </div>
-    </div>
+    </div>  
   )
 }
 
